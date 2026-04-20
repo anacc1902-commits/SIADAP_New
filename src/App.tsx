@@ -340,7 +340,7 @@ function buildDecree75Report(workers: Worker[], periods: string[]) {
   });
 }
 
-export default function MainApp() {
+export default function App() {
   const [workers, setWorkers] = useState<Worker[]>(loadWorkersFromStorage);
   const [worker, setWorker] = useState<Worker>(createEmptyWorker());
   const [accessCode, setAccessCode] = useState("");
